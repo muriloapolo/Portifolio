@@ -21,29 +21,31 @@ header {
 }
 
 .imagem img {
-    margin-top: 20px;
-    width: 350px;
-    height: 350px;
+    margin-top: 15px;
+    width: 300px;
+    height: 300px;
     border-radius: 50%;
-    border: 4px solid rgba(35, 43, 27, 0.37);
+    border: 4px solid rgba(158, 172, 145, 0.37);
     box-shadow: 0 0 5px 3px rgba(67, 10, 160, 0.37);
 }
 
 .apresentacao {
-    margin-top: 30px;
+    margin-top: 25px;
     text-align: center;
     font-family: Teko, sans-serif;
-    font-size: 4rem;
+    font-size: 3.5rem;
 }
 
 .redes {
     display: flex;
     flex-direction: row;
+    align-items: center;
     justify-content: center;
+    align-self: center;
 }
 
 .redes-icons {
-    margin-left: 15px;
+    margin: 10px;
 }
 
 .redes-icons i {
