@@ -20,7 +20,10 @@
     .caixa-imagem {
         width: 100%;
         height: 100%;
+    }
 
+    .footer a {
+        font-size: 15px;
     }
 
 }
