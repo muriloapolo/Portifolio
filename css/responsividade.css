@@ -1,0 +1,75 @@
+/* Dispositivos extra small (telefones em modo retrato, com menos de 576px)
+// Sem media query para `xs`, já que este é o padrão, no Bootstrap. */
+
+/* Dispositivos small (telefones em modo paisagem, com 576px ou mais)*/
+@media (max-width: 576px) {
+    .caixa-corpo {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .texto-card {
+        height: 20%;
+        width: 100%;
+
+    }
+
+    .caixa-imagem {
+        width: 100%;
+        height: 100%;
+
+    }
+
+}
+
+/* Dispositivos médios (tablets com 768px ou mais)*/
+@media (max-width: 768px) {
+    .caixa-corpo {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .texto-card {
+        height: 100%;
+        width: 100%;
+
+    }
+
+    .caixa-imagem {
+        width: 100%;
+        height: 100%;
+
+    }
+}
+
+/* Dispositivos large (desktops com 992px ou mais) */
+@media (max-width: 992px) {
+    .caixa-corpo {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .texto-card {
+        height: 100%;
+        width: 100%;
+
+    }
+
+    .caixa-imagem {
+        width: 100%;
+        height: 100%;
+
+    }
+}
+
+/* Dispositivos extra large (desktops grandes com 1200px ou mais) */
+@media (min-width: 1200px) {}
