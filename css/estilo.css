@@ -1,6 +1,10 @@
 /*FONTS*/
 @import url('https://fonts.googleapis.com/css2?family=Teko:wght@300;400&display=swap');
 
+body {
+    width: 100vw;
+}
+
 header {
     height: 100vh;
     background: rgb(199, 255, 248);
