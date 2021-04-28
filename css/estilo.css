@@ -10,8 +10,8 @@ body {
 
 #header-perfil {
     height: 100vh;
-    background: rgb(199, 255, 248);
-    background: linear-gradient(180deg, rgba(199, 255, 248, 1) 15%, rgba(177, 202, 245, 1) 100%);
+    background: rgb(84, 137, 180);
+    background: linear-gradient(0deg, rgba(84, 137, 180, 0.6895133053221288) 15%, rgba(78, 218, 228, 0.711922268907563) 51%, rgba(87, 251, 248, 0.7203256302521008) 79%);
 }
 
 .imagem {
